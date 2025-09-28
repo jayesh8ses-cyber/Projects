@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is a test description">
+    <title>FORMS AND INPUT TAGS</title>
+</head>
+<body>
+    <h1>HTML FORMS</h1>
+    <!-- <form action="https://www.google.com/search" method="GET">
+        <label for="search">Search Google:</label>
+        <input type="text" id="search" name="q" placeholder="Type your search here">
+        <input type="submit" value="Search">
+    </form> -->
+
+
+    <h1>HIRING FOR OUR CLUB - NON-TECH MEMBERS ONLY</h1>
+    <form action="post">
+        <div>    
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter Username" autofocus>
+        </div>
+        <div>
+
+            <label for="gender">what is your gender:  </label>
+            <label for="male">male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">female</label>
+            <input type="radio" id="female" name="gender" value="female">
+        </div>
+        <div>
+            <input type="checkbox" id="yo" name="yo" value="yo" required>
+            <label for="yo">I agree to the terms and conditions</label>
+        </div>
+        <div>
+            <label for="job">Choose a job:</label>
+            <select id="job" name="job">
+                <option value="content writer">Content Writer</option>
+                <option value="graphic designer">Graphic Designer</option>
+                <option value="video editor">Video Editor</option>
+                <option value="digital marketer">Digital Marketer</option>
+            </select>
+        </div>
+        <div>
+
+            <label for="about">About you:</label>
+            <br>
+            <textarea id="about" name="about" rows="4" cols="50" placeholder="Tell us about yourself"></textarea>
+        </form>
+</body>
+</html>
